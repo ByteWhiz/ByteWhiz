@@ -21,11 +21,11 @@
 </div>
 
 
-- I’m working to frontend and backend for building web applications.
+- Work on frontend and backend for web application creation
 
 - Exploring Technical Content Writing.
 
-- In my free time, I solve problems on GeeksforGeeks/leetCode and read tech articles.
+- In my spare time, I solve problems on GeeksforGeeks/leetCode and read tech articles.
 
 - I am a Full Stack Developer from Israel.
 <div>
