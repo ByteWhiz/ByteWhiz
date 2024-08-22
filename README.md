@@ -1,20 +1,20 @@
 <div id="header" align="center">
-  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExa29uNndmNnpqZTFoZDg1eGhna3VmOGp1NTk4OG5qNDM0cDQ1ODViNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/P7PmvHY6kzAqY/giphy.webp" width="200"/>
-  <div id="badges">
-    <a href="https://www.linkedin.com/in/tommy-tal-133946298/">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExa29uNndmNnpqZTFoZDg1eGhna3VmOGp1NTk4OG5qNDM0cDQ1ODViNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/P7PmvHY6kzAqY/giphy.webp" width="200" alt="Profile GIF" />
+  <div id="badges" style="margin: 20px 0;">
+    <a href="https://www.linkedin.com/in/tommy-tal-133946298/" style="text-decoration: none;">
       <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
     </a>
   </div>
-  <img src="https://komarev.com/ghpvc/?username=ByteWhiz&style=flat-square&color=blue" alt=""/>
+  <img src="https://komarev.com/ghpvc/?username=ByteWhiz&style=flat-square&color=blue" alt="Profile Views"/>
   <h1>
     Hey there!
-    <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
+    <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px" alt="Waving Hand"/>
   </h1>
 </div>
 
 ---
 
-### 🛡️ Cybersecurity Enthusiast & Pentester
+### 🛡️ Cybersecurity Specialist & Pentester
 
 I specialize in developing cutting-edge cybersecurity tools and conducting thorough pentesting assessments. My passion for ethical hacking drives me to explore and secure systems, constantly pushing the boundaries of what is possible in the field. I'm an active participant on **TryHackMe** and **HackTheBox**, where I continuously sharpen my skills and stay ahead of the latest security challenges.
 
@@ -60,4 +60,3 @@ In addition to my work in cybersecurity, I am also a seasoned **React Native** a
   <img src="https://github.com/devicons/devicon/blob/master/icons/trello/trello-plain-wordmark.svg" title="Trello" alt="Trello" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original-wordmark.svg" title="VSCode" alt="VSCode" width="40" height="40"/>&nbsp;
 </div>
-
