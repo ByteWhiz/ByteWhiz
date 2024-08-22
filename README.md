@@ -1,5 +1,5 @@
 <div id="header" align="center">
-  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExa29uNndmNnpqZTFoZDg1eGhna3VmOGp1NTk4OG5qNDM0cDQ1ODViNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/P7PmvHY6kzAqY/giphy.webp" width="200" alt="Profile GIF" />
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmFpOTM3b3NhZHMya25rMXc5NXd5N3UwMmVkbmVnM2lpOTh1czN1aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2RiU1RUjyh4C4/giphy.webp" width="200" alt="Profile GIF" />
   <div id="badges" style="margin: 20px 0;">
     <a href="https://www.linkedin.com/in/tommy-tal-133946298/" style="text-decoration: none;">
       <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
