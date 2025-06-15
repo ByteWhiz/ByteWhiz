@@ -33,7 +33,7 @@ I specialize in developing cutting-edge cybersecurity tools and conducting thoro
 <!-- Alternative: Custom animated badge using shields.io -->
 <div align="center" style="margin: 10px 0;">
   <a href="https://tryhackme.com/p/Byt3Wizz">
-    <img src="https://img.shields.io/badge/🎯_TryHackMe-Byt3Wizz-red?style=for-the-badge&logo=tryhackme&logoColor=white&labelColor=212C42&color=00D4AA&link=https://tryhackme.com/p/Byt3Wizz" alt="TryHackMe Profile"/>
+    <img src="https://tryhackme-badges.s3.amazonaws.com/Byt3Wizz.png" alt="Your Image Badge" />
   </a>
   <br/>
   <img src="https://img.shields.io/badge/🏆_Rank-31057-yellow?style=flat-square&labelColor=212C42&color=FFD700" alt="Rank"/>
