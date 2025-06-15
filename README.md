@@ -26,147 +26,20 @@ I specialize in developing cutting-edge cybersecurity tools and conducting thoro
 
 <div align="center">
   <a href="https://tryhackme.com/p/Byt3Wizz">
-    <svg width="400" height="120" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <!-- Background gradient -->
-        <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-          <stop offset="0%" style="stop-color:#212C42;stop-opacity:1" />
-          <stop offset="50%" style="stop-color:#2A3F5F;stop-opacity:1" />
-          <stop offset="100%" style="stop-color:#212C42;stop-opacity:1" />
-        </linearGradient>
-        
-        <!-- Matrix effect -->
-        <pattern id="matrixPattern" patternUnits="userSpaceOnUse" width="20" height="20">
-          <text x="2" y="15" font-family="Courier New" font-size="10" fill="#00D4AA" opacity="0.1">01</text>
-          <text x="12" y="8" font-family="Courier New" font-size="8" fill="#00D4AA" opacity="0.08">ア</text>
-        </pattern>
-        
-        <!-- Glowing effect -->
-        <filter id="glow">
-          <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
-          <feMerge> 
-            <feMergeNode in="coloredBlur"/>
-            <feMergeNode in="SourceGraphic"/>
-          </feMerge>
-        </filter>
-        
-        <!-- Pulse animation -->
-        <filter id="pulse">
-          <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
-          <feMerge> 
-            <feMergeNode in="coloredBlur"/>
-            <feMergeNode in="SourceGraphic"/>
-          </feMerge>
-        </filter>
-      </defs>
-      
-      <!-- Background -->
-      <rect width="400" height="120" rx="12" fill="url(#bgGradient)" stroke="#00D4AA" stroke-width="2"/>
-      
-      <!-- Matrix background -->
-      <rect width="400" height="120" fill="url(#matrixPattern)" opacity="0.3">
-        <animateTransform attributeName="transform" type="translate" values="0,0; 0,-20; 0,0" dur="3s" repeatCount="indefinite"/>
-      </rect>
-      
-      <!-- Profile image circle -->
-      <circle cx="60" cy="60" r="28" fill="#1A1A2E" stroke="#00D4AA" stroke-width="2"/>
-      
-      <!-- Animated profile icon -->
-      <circle cx="60" cy="60" r="20" fill="#00D4AA" opacity="0.8">
-        <animate attributeName="r" values="18; 22; 18" dur="2s" repeatCount="indefinite"/>
-      </circle>
-      <text x="60" y="68" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#212C42">⚡</text>
-      
-      <!-- Pulsing border around profile -->
-      <circle cx="60" cy="60" r="30" fill="none" stroke="#00D4AA" stroke-width="1" opacity="0.6">
-        <animate attributeName="r" values="28; 32; 28" dur="2s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0.6; 0.2; 0.6" dur="2s" repeatCount="indefinite"/>
-      </circle>
-      
-      <!-- Username with glitch effect -->
-      <text x="105" y="35" font-family="Courier New, monospace" font-size="18" font-weight="bold" fill="#00D4AA" filter="url(#glow)">
-        Byt3Wizz
-        <animate attributeName="x" values="105; 103; 107; 105" dur="0.1s" begin="3s" repeatCount="3"/>
-      </text>
-      
-      <!-- Rank badge -->
-      <rect x="105" y="42" width="60" height="16" rx="8" fill="#FFD700" opacity="0.9"/>
-      <text x="135" y="53" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#212C42">🎯 0xB</text>
-      
-      <!-- Stats section -->
-      <g transform="translate(180, 20)">
-        <!-- Rank -->
-        <text x="0" y="15" font-family="Arial, sans-serif" font-size="12" fill="#FFF">
-          🏆 31057
-        </text>
-        
-        <!-- Streak -->
-        <text x="0" y="35" font-family="Arial, sans-serif" font-size="12" fill="#FFA500">
-          🔥 0 days
-          <animate attributeName="fill" values="#FFA500; #FF6B00; #FFA500" dur="1.5s" repeatCount="indefinite"/>
-        </text>
-        
-        <!-- Points -->
-        <text x="0" y="55" font-family="Arial, sans-serif" font-size="12" fill="#FFD700">
-          ⭐ 23
-          <animate attributeName="opacity" values="1; 0.7; 1" dur="2s" repeatCount="indefinite"/>
-        </text>
-        
-        <!-- Level -->
-        <text x="0" y="75" font-family="Arial, sans-serif" font-size="12" fill="#87CEEB">
-          📊 141
-        </text>
-      </g>
-      
-      <!-- TryHackMe logo area -->
-      <g transform="translate(320, 20)">
-        <!-- THM logo background -->
-        <rect x="0" y="20" width="60" height="60" rx="8" fill="#16213E" opacity="0.8"/>
-        
-        <!-- Animated THM text -->
-        <text x="30" y="40" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#00D4AA" filter="url(#pulse)">
-          TRY
-          <animate attributeName="opacity" values="1; 0.5; 1" dur="1s" repeatCount="indefinite"/>
-        </text>
-        <text x="30" y="55" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#00D4AA" filter="url(#pulse)">
-          HACK
-          <animate attributeName="opacity" values="0.5; 1; 0.5" dur="1s" repeatCount="indefinite"/>
-        </text>
-        <text x="30" y="70" font-family="Arial, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#00D4AA" filter="url(#pulse)">
-          ME
-          <animate attributeName="opacity" values="1; 0.5; 1" dur="1s" repeatCount="indefinite"/>
-        </text>
-      </g>
-      
-      <!-- Bottom URL -->
-      <text x="200" y="110" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#888" opacity="0.7">
-        tryhackme.com
-      </text>
-      
-      <!-- Scanning line effect -->
-      <line x1="0" y1="60" x2="400" y2="60" stroke="#00D4AA" stroke-width="1" opacity="0.3">
-        <animate attributeName="y1" values="0; 120; 0" dur="4s" repeatCount="indefinite"/>
-        <animate attributeName="y2" values="0; 120; 0" dur="4s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0; 0.6; 0" dur="4s" repeatCount="indefinite"/>
-      </line>
-      
-      <!-- Corner decorations -->
-      <g stroke="#00D4AA" stroke-width="2" fill="none" opacity="0.5">
-        <path d="M 15 15 L 5 15 L 5 25">
-          <animate attributeName="opacity" values="0.5; 1; 0.5" dur="3s" repeatCount="indefinite"/>
-        </path>
-        <path d="M 385 15 L 395 15 L 395 25">
-          <animate attributeName="opacity" values="0.5; 1; 0.5" dur="3s" begin="1s" repeatCount="indefinite"/>
-        </path>
-        <path d="M 15 105 L 5 105 L 5 95">
-          <animate attributeName="opacity" values="0.5; 1; 0.5" dur="3s" begin="2s" repeatCount="indefinite"/>
-        </path>
-        <path d="M 385 105 L 395 105 L 395 95">
-          <animate attributeName="opacity" values="0.5; 1; 0.5" dur="3s" begin="0.5s" repeatCount="indefinite"/>
-        </path>
-      </g>
-    </svg>
+    <img src="https://tryhackme-badges.s3.amazonaws.com/Byt3Wizz.png" alt="TryHackMe Badge" style="border-radius: 12px; border: 2px solid #00D4AA; box-shadow: 0 4px 8px rgba(0, 212, 170, 0.3);" />
   </a>
+</div>
+
+<!-- Alternative: Custom animated badge using shields.io -->
+<div align="center" style="margin: 10px 0;">
+  <a href="https://tryhackme.com/p/Byt3Wizz">
+    <img src="https://img.shields.io/badge/🎯_TryHackMe-Byt3Wizz-red?style=for-the-badge&logo=tryhackme&logoColor=white&labelColor=212C42&color=00D4AA&link=https://tryhackme.com/p/Byt3Wizz" alt="TryHackMe Profile"/>
+  </a>
+  <br/>
+  <img src="https://img.shields.io/badge/🏆_Rank-31057-yellow?style=flat-square&labelColor=212C42&color=FFD700" alt="Rank"/>
+  <img src="https://img.shields.io/badge/⭐_Points-23-blue?style=flat-square&labelColor=212C42&color=87CEEB" alt="Points"/>
+  <img src="https://img.shields.io/badge/📊_Level-141-green?style=flat-square&labelColor=212C42&color=00D4AA" alt="Level"/>
+  <img src="https://img.shields.io/badge/🔥_Streak-0_days-orange?style=flat-square&labelColor=212C42&color=FFA500" alt="Streak"/>
 </div>
 
 ### 💻 React Native & Backend Developer
